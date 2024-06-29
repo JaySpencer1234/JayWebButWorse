@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+:root {
+    --bs-primary-rgb: 235, 223, 240;
+}
+
+body {
+    background-image: linear-gradient(rgba(47, 23, 15, 0.2), rgba(47, 23, 15, 0.2)), url("../images/bg.jpg");
+}
+
+.btn-primary {
+    --bs-btn-hover-bg: #e6a756;
+    --bs-btn-hover-border-color: #e6a756;
+}
+
+.text-faded {
+    color: #EBDFF0;
+}
+
+.btn-x1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.footer, .cta, #mainNav {
+    background-color: rgba(140, 82, 102, 0.9);
+}
